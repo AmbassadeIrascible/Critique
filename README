@@ -1,5 +1,13 @@
-Liste de critique
+18/07
 
-Updaté sur github
+Les critiques sont codés en r markdown 
 
-17/07/2025
+On part du template et on modifie depuis ce dernier
+
+Il met par défaut une image de fond et la vidéo de a l'abordage. A changer si
+on passe sur une autre critique. 
+
+L'image de fond est dans asset (ici Phantom Thread de Paul Thomas Anderson)
+
+Le style.css a été très largement récupéré depuis un LLM il peux faire des
+bétises à vérifier.
