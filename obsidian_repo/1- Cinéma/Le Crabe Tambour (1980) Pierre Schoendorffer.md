@@ -1,0 +1,1 @@
+[[Pierre Schoendorffer]] [[Mer]] [[Marin]] [[Armée]] [[Politique]] [[Indochine]] [[Grand-bancs]] [[Pays Bigoudenne]] [[Jean Rochefort]] [[Claude Rich]] [[Jacques Perrin]] [[../../3-0 Tag/Cinéma Français|Cinéma Français]] #Trés_bon_film 

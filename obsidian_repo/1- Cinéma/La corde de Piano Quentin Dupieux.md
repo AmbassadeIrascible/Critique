@@ -1,0 +1,2 @@
+#Film_mid  [[Adèle Exarchopoulos]] [[Jérome Commandeur]] [[Absurde]] [[Quentin Dupieux]] [[Absurde]] [[Moralisateur]] [[YouTube]] [[../../3-0 Tag/Cinéma Français|Cinéma Français]] 
+Dupieux oserait dire qu'il se met la corde autour du cou mais il ne fais que nous prendre en otage derrière son boomerisme purrulent. 

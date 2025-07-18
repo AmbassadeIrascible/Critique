@@ -1,0 +1,1 @@
+[[Werner Herzog]] [[Cinéma Allemand]] [[../../3-0 Tag/Documentaire|Documentaire]] [[../../3-0 Tag/Guerre|Guerre]] [[Irak]] [[Pétrole]] [[Capitalisme]] #Trés_bon_film 

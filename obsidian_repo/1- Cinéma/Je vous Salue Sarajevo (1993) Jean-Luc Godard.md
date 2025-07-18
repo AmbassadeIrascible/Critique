@@ -1,0 +1,2 @@
+[[../../3-0 Tag/Documentaire|Documentaire]] [[../../3-0 Tag/Cinéma Français|Cinéma Français]] [[Jean-Luc Godard]] [[Image]] [[Poésie]] [[Court-Métrage]] [[Guerre]] #Trés_bon_film  [[Louis Aragon]] [[Georges Bernanos]] 
+![[../../MV5BY2ZmNTlhMDMtZjY3OS00ZWIyLWJmMWItYzUwMzQ5N2RkMTkwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg]]
