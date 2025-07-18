@@ -1,1 +1,0 @@
-[[../../3-0 Tag/Cinéma Américain|Cinéma Américain]] [[John Mc Tiernan]] [[Sean Connery]]  [[Sous-Marin]] [[Communisme]]  [[URSS]] [[Cow Boys]]  #Trés_bon_film

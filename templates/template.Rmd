@@ -1,0 +1,35 @@
+
+---
+title: "Titre de la critique"
+author: "Ton Nom"
+date: "`r format(Sys.Date(), '%d %B %Y')`"
+output:
+  html_document:
+    toc: true
+    toc_depth: 2
+    theme: cosmo
+    highlight: tango
+    css: "../assets/styles.css"   # optionnel : pour tes styles perso
+params:
+  video_file:
+    value: "videos/nom-de-video.mp4"
+    input: text
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = TRUE,       # affiche le code R
+  message = FALSE,   # masque les messages
+  warning = FALSE    # masque les warnings
+)
+```
+Début de la critique
+
+```{r video, echo=FALSE, results='asis'}
+video_path <- "../videos/ALabordage.mp4"
+cat(sprintf(
+  '<video controls width="640">
+     <source src="%s" type="video/mp4">
+     Votre navigateur ne supporte pas la balise vidéo.
+   </video>', 
+  video_path))

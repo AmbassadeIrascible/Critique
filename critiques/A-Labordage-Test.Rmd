@@ -1,0 +1,54 @@
+---
+title: "Test à L'Abordage"
+author: "Ton Nom"
+date: "`r format(Sys.Date(), '%d %B %Y')`"
+output:
+  html_document:
+    toc: false
+    toc_depth: 2
+    theme: cosmo
+    highlight: tango
+    css: "../assets/styles.css"  # optionnel : pour tes styles perso
+params:
+  video_file:
+    value: "videos/nom-de-video.mp4"
+    input: text
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = TRUE,
+  message = FALSE,
+  warning = FALSE
+)
+```
+
+# Début de la critique
+
+```{r video, echo=FALSE, results='asis'}
+video_path <- "../videos/ALabordage.mp4"
+cat(sprintf(
+  '<video controls width="640">
+     <source src="%s" type="video/mp4">
+     Votre navigateur ne supporte pas la balise vidéo.
+   </video>
+
+',
+  video_path
+))
+```
+
+# Qu'est ce que c'est beau de filmer des gens moches
+
+Dans cette vidéo formidable, le réalisateur démontre une nouvelle fois qu'au cinéma les gens jolis qui chantent faux au cinéma restent les plus beaux du monde.  
+
+Après ce moment de grâce, sous-entendre rien qu'une critique à cette assertion serait tout bonnement fou.  
+
+Et voici le texte ajouté à la fin, sur une nouvelle ligne pour illustrer le saut de ligne.  
+
+<div style="page-break-after: always;"></div>
+
+# L'état de l'été
+
+Lieu curieux de l'alliance des beaufs et des barbares, il s'agit en avant de l'inclusion des moches des refoulés et de ceux qui refoulent. 
