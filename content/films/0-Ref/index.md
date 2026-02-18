@@ -1,12 +1,12 @@
 ---
-title: "Gourou"
-director: "Pierre Niney"
-directors: ["Pierre Niney"]
-year: 2025
+title: "0-Reference"
+director: "Louis-Axel EDOUARD RAMBAUT"
+directors: ["Louis-Axel EDOUARD RAMBAUT"]
+year: 2026
 countries: ["France"]
-rating: 3
+rating: 6
 viewings:
-  - date: 2025-02-18
+  - date: 2026-02-18
 draft: false
 ---
 
