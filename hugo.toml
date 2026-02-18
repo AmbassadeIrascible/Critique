@@ -1,4 +1,4 @@
-baseURL = "https://tiny.seedhost.eu/jeanmichel/downloads/CRITIQUES/cinema/"
+baseURL = "https://tiny.seedhost.eu/jeanmichel/downloads/html/CRITIQUES/cinema/"
 languageCode = "fr"
 
 # Pas de theme externe, on fait tout en layouts maison
@@ -10,7 +10,7 @@ languageCode = "fr"
 [params]
   # URL de base pour les medias heberges sur seedhost
   # Uploades a la main via WinSCP dans le dossier media/ sur le serveur
-  mediaBaseURL = "https://tiny.seedhost.eu/jeanmichel/downloads/CRITIQUES/cinema/media"
+  mediaBaseURL = "https://tiny.seedhost.eu/jeanmichel/downloads/html/CRITIQUES/cinema/media"
 
 [markup.goldmark.renderer]
   unsafe = true

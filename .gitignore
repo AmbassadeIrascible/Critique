@@ -12,3 +12,5 @@ deploy.bat
 # OS
 Thumbs.db
 .DS_Store
+
+*.mp4
