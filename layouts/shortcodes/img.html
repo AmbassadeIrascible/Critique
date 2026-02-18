@@ -1,0 +1,15 @@
+{{- $filename := .Get 0 -}}
+{{- $caption := .Get 1 -}}
+{{- $slug := .Page.File.ContentBaseName -}}
+{{- if eq $slug "index" -}}
+  {{- $slug = .Page.File.Dir | path.Clean | path.Base -}}
+{{- end -}}
+{{- $mediaBase := .Site.Params.mediaBaseURL -}}
+<figure class="media-figure">
+  <img src="{{ $mediaBase }}/films/{{ $slug }}/{{ $filename }}"
+       alt="{{ $caption }}"
+       loading="lazy" />
+  {{- if $caption }}
+  <figcaption>{{ $caption }}</figcaption>
+  {{- end }}
+</figure>

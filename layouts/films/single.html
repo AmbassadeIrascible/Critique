@@ -1,0 +1,31 @@
+{{ define "title" }}{{ .Title }} - {{ .Site.Title }}{{ end }}
+
+{{ define "main" }}
+<article class="film-critique">
+  <header>
+    <h1>{{ .Title }}</h1>
+    <div class="film-meta">
+      <span class="director">{{ .Params.director }}</span>
+      <span class="year">{{ .Params.year }}</span>
+      <span class="country">{{ delimit .Params.countries ", " }}</span>
+      <span class="rating">{{ range seq .Params.rating }}&#9733;{{ end }}{{ range seq (sub 5 .Params.rating) }}&#9734;{{ end }}</span>
+    </div>
+    <div class="viewings">
+      {{ range .Params.viewings }}
+        <span class="viewing">
+          Vu le {{ dateFormat "02/01/2006" .date }}
+          {{ with .note }}({{ . }}){{ end }}
+        </span>
+      {{ end }}
+    </div>
+  </header>
+
+  <div class="critique-body">
+    {{ .Content }}
+  </div>
+
+  <nav class="back-link">
+    <a href="{{ "/" | absURL }}">&larr; Retour a la liste</a>
+  </nav>
+</article>
+{{ end }}

@@ -1,0 +1,14 @@
+# Hugo build output
+/public/
+
+# Media files (hosted on seedhost, not in git)
+/media/
+
+# Deploy script (contient le mot de passe)
+deploy.bat
+*~
+*.swp
+*.un~
+# OS
+Thumbs.db
+.DS_Store

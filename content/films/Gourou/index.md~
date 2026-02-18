@@ -1,0 +1,26 @@
+n Dujardin"
+directors: ["Pierre Niney"]
+year: 2025
+countries: ["France"]
+rating: 3
+viewings:
+  - date: 2025-02-18
+draft: false
+---
+
+Ceci est un test, on ne regardera sans doute pas cette bouse de Pierre Niney donc ici on est juste pour le lulz.
+On test l'intégration seedhost dans git pour faire des critiques cinés 
+avec des intégrations de vidéos host sur seedbox. 
+
+ Premier paragraphe pour verifier l'espacement.
+
+{{< video "Video_test.mp4" "Un extrait de test" >}}
+```
+
+Sauvegarde et ferme.
+
+**Etape 2 : Uploader les médias sur seedhost**
+
+Ouvre WinSCP, connecte-toi à seedhost, et navigue jusqu'à ton dossier `html/CRITIQUES/cinema/`. Crée l'arborescence :
+```
+html/CRITIQUES/cinema/media/films/dummy-test/

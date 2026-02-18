@@ -1,0 +1,47 @@
+{{ define "title" }}{{ .Site.Title }}{{ end }}
+
+{{ define "main" }}
+<h1>Films</h1>
+
+{{/* Collect all viewings into a flat list */}}
+{{ $viewings := slice }}
+{{ range where .Site.RegularPages "Section" "films" }}
+  {{ $page := . }}
+  {{ range .Params.viewings }}
+    {{ $viewings = $viewings | append (dict
+      "date" .date
+      "note" (.note | default "")
+      "page" $page
+    ) }}
+  {{ end }}
+{{ end }}
+
+{{/* Sort by viewing date, most recent first */}}
+{{ $sorted := sort $viewings "date" "desc" }}
+
+<table class="film-list">
+  <thead>
+    <tr>
+      <th>Date</th>
+      <th>Film</th>
+      <th>Realisateur</th>
+      <th>Annee</th>
+      <th>Pays</th>
+      <th>Note</th>
+    </tr>
+  </thead>
+  <tbody>
+  {{ range $sorted }}
+    {{ $p := .page }}
+    <tr>
+      <td class="date">{{ dateFormat "02/01/2006" .date }}</td>
+      <td><a href="{{ $p.Permalink }}">{{ $p.Title }}</a></td>
+      <td>{{ $p.Params.director }}</td>
+      <td>{{ $p.Params.year }}</td>
+      <td>{{ delimit $p.Params.countries ", " }}</td>
+      <td class="rating">{{ range seq $p.Params.rating }}&#9733;{{ end }}{{ range seq (sub 5 $p.Params.rating) }}&#9734;{{ end }}</td>
+    </tr>
+  {{ end }}
+  </tbody>
+</table>
+{{ end }}
